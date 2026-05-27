@@ -19963,7 +19963,7 @@ definitions:
         description: ISO 8601 Date of report expiration.
       report_url:
         type: string
-        description: URL to use to download the CSV report. This link will expire around 15 minutes after it is fetched. The report can be refetched at any time to generate a new link until its expiration_date at which point it will need to be created again.
+        description: URL used to download the CSV report. This link will expire approximately 15 minutes after it is generated. The report can be fetched again at any time to generate a new download link until the report’s expiration_date, after which it must be created again.
       account_id:
         type: string
         description: ID of the account.
