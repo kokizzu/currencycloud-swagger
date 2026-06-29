@@ -346,7 +346,6 @@ paths:
           enum:
             - disabled
             - enabled
-            - "enabled_no_trading"
           default: enabled
           description: Status da conta.
         - name: "state_or_province"
@@ -777,7 +776,6 @@ paths:
         enum:
           - disabled
           - enabled
-          - "enabled_no_trading"
         default: enabled
         description: Status da conta.
       - name: street
@@ -1177,7 +1175,6 @@ paths:
           enum:
             - disabled
             - enabled
-            - "enabled_no_trading"
           description: Status da conta.
         - name: street
           in: formData
@@ -16648,7 +16645,6 @@ definitions:
         enum:
           - disabled
           - enabled
-          - "enabled_no_trading"
         description: Status da conta
       street:
         type: string
